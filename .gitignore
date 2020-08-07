@@ -342,3 +342,6 @@ App.config
 C_shap_basic_기초입출력.csproj
 C_shap_basic_기초입출력.sln
 Properties/AssemblyInfo.cs
+Class_instance_Variable/Class_instance_Variable/Properties/AssemblyInfo.cs
+Class_instance_Variable/Class_instance_Variable/Class_instance_Variable.csproj
+Class_instance_Variable/Class_instance_Variable.sln

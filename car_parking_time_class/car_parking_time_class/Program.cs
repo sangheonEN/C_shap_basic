@@ -49,7 +49,7 @@ namespace car_parking_time_class
             //isAccident[0] = true;
 
             Car[] c_cars = new Car[5];
-            c_cars[0].Carname = "24아 2345";
+            c_cars[0].Carname = new ("24아 2345");
             c_cars[0].intime = 1;
             c_cars[0].outtime = 200;
             c_cars[0].isAccident = true;
@@ -74,7 +74,6 @@ namespace car_parking_time_class
             c_cars[4].outtime = 600;
             c_cars[4].isAccident = true;
 
-
             for(int i = 0; i < c_cars.Length; i++)
             {
                 if (c_cars[i].Carname == "209호 1283")
@@ -83,14 +82,6 @@ namespace car_parking_time_class
                     break;
                 }
             }
-
-            //foreach (var item in c_cars)
-            //{
-            //    if (item.Carname == "24아 2345")
-            //    {
-            //        Console.WriteLine($"intime : {item.intime}");
-            //    }
-            //}
         }
     }
 }
