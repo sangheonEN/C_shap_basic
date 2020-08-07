@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03A8213D-DB08-4C23-ADBF-2EE240FDA997}</ProjectGuid>
+    <ProjectGuid>{6FBFF7AB-C6E4-4DFE-8CD6-90D863EF1635}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsForms_20200807</RootNamespace>
-    <AssemblyName>WindowsForms_20200807</AssemblyName>
+    <RootNamespace>windows_form_example</RootNamespace>
+    <AssemblyName>windows_form_example</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
