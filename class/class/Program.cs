@@ -12,7 +12,6 @@ namespace @class
         {
             //-----------------------------------------------------------------------------------------------------------------------------------//
 
-
             // 1) Random 클래스
 
             Console.WriteLine($"Random 이라는 클래스에 있는 Next 메서드 활용 하여 난수 출력");
@@ -63,8 +62,8 @@ namespace @class
             Console.WriteLine($"List 클래스 요소 추가");
 
             List<int> list2 = new List<int>() { 52, 1923, 238, 33 };
-            
-            foreach(var item in list2)
+
+            foreach (var item in list2)
             {
                 Console.WriteLine($"Conut : {list2.Count} \t source : {item}");
             }
@@ -80,25 +79,14 @@ namespace @class
 
             list3.Remove(1923);
 
-            foreach(var item in list3)
+            foreach (var item in list3)
             {
                 Console.WriteLine($"Count : {list3.Count} \t source : {item}");
             }
 
             Console.WriteLine("\n");
-
-
-            //-----------------------------------------------------------------------------------------------------------------------------------//
-
-            string[] cars = new string[5];
-            cars[0] = "13하 1923";
-            cars[1] = "13허 2933";
-            cars[2] = "13호 3450";
-            cars[3] = "13흐 6966";
-            cars[4] = "13후 9484";
-
-
         }
     }
 
 }
+
