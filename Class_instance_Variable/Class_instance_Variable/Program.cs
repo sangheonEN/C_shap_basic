@@ -44,7 +44,7 @@ namespace Class_instance_Variable
             //{
             //    Console.WriteLine("!!!!!!!");
             //}
-
+            
             asdf[0].name = "이상헌";
             asdf[2].name = "안중언";
             asdf[3].name = "박순홍";
