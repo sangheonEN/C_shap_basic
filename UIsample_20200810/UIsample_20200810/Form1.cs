@@ -21,5 +21,10 @@ namespace UIsample_20200810
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

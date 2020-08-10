@@ -44,6 +44,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,7 +163,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(354, 235);
+            this.button4.Location = new System.Drawing.Point(354, 233);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(34, 23);
             this.button4.TabIndex = 5;
@@ -174,7 +175,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ImageIndex = 0;
             this.button6.ImageList = this.imageList1;
-            this.button6.Location = new System.Drawing.Point(474, 235);
+            this.button6.Location = new System.Drawing.Point(474, 233);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(34, 23);
             this.button6.TabIndex = 5;
@@ -190,6 +191,19 @@
             this.imageList1.Images.SetKeyName(3, "phone_50px.png");
             this.imageList1.Images.SetKeyName(4, "secured_letter_50px.png");
             // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.Window;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(474, 9);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(46, 33);
+            this.button5.TabIndex = 5;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -197,6 +211,7 @@
             this.ClientSize = new System.Drawing.Size(874, 257);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
@@ -238,6 +253,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
