@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -100,6 +101,42 @@ namespace windows_form_example
             else if (A == 3 && temp == 2)
             {
                 MessageBox.Show("승리하셨습니다.");
+            }
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("1등");
+            listBox1.Items.Add("2등");
+            listBox1.Items.Add("3등");
+            listBox1.Items.Add("4등");
+            listBox1.Items.Add("5등");
+            listBox1.Items.Add("6등");
+
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            List<string> str = new List<string>();
+
+            str.Add("이상헌 천재");
+            str.Add("김하영 천재");
+            str.Add("이상헌 바보");
+            str.Add("김하영 바보");
+            str.Add("한화솔루션 주가 4만 돌파 가즈아!!");
+            str.Add("셀트리온 속 좀 그만 썩이고 올라가자!!");
+            str.Add("보테가 베네타 지갑 사자!!");
+
+            Random a = new Random();
+
+            int A = a.Next(0, 7);
+
+            for(int i = 0; i <= A; i++)
+            {
+                
+                Random_Label.Text = str[i];
             }
         }
     }
