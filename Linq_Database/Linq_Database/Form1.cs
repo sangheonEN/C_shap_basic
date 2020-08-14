@@ -15,6 +15,8 @@ namespace Linq_Database
         public Form1()
         {
             InitializeComponent();
+            
+
         }
     }
 }

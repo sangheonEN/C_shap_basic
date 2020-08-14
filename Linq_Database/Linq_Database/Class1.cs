@@ -8,5 +8,6 @@ namespace Linq_Database
 {
     class Class1
     {
+
     }
 }
