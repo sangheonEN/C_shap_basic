@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Reflection.Emit;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Study_Foreach
@@ -41,6 +43,13 @@ namespace Study_Foreach
                 //}
                 Console.WriteLine($"item.C = {item.C}");
             }
+
+            Thread.Sleep(3000);
+
+            string a = "   po  ta TO   ";
+            Console.WriteLine(a.Trim());
+            Console.WriteLine(a.Replace(" ", ""));   // " " 공백을 없애기 위해 ""
+            //Console.WriteLine(a.);
 
         }
     }
