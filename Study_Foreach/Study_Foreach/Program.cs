@@ -31,6 +31,14 @@ namespace Study_Foreach
             {
                 Console.WriteLine($"item.A = {item.A}");
                 Console.WriteLine($"item.B = {item.B}");
+                if(item.B == 200)        // item.B 200이면 가장 가까운 for, switch문 etc.. 에서 빠져 나간다.
+                {
+                    break;
+                }
+                //if (item.B == 200)     // item.B 200이면 가장 가까운 for, switch문으로 돌아가 다음 for문을 시작한다.
+                //{
+                //    continue;
+                //}
                 Console.WriteLine($"item.C = {item.C}");
             }
 
