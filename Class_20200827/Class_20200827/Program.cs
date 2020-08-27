@@ -32,8 +32,35 @@ namespace Class_20200827
     }
     class Program
     {
+        class test
+        {
+            public int power(int i)
+            {
+                return i * i;
+            }
+
+            public int power(int i, int a)     // 메서드 명은 같지만 매개변수가 다름 사용가능 오버로딩
+            {
+                return a;
+            }
+
+            public int multi(int i, int j)
+            {
+                int sum = 0;
+                for(; i <= j; i++)
+                {
+                    sum += i;
+                }
+                return sum;
+            }
+        }
+
         static void Main(string[] args)
         {
+            test test1 = new test();
+            Console.WriteLine(test1.power(5));
+            Console.WriteLine(test1.multi(1, 10));
+
             //static으로 선언되었을때 클래스의 변수, 함수 사용법
             Console.WriteLine(A.a);   // static이니까 생성자 없이 바로 사용할 수 있음
             A.doa();                  // static이니까 생성자 없이 바로 사용할 수 있음
