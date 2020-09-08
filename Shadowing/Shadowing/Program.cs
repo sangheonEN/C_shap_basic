@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Shadowing
 {
-
-
     class Program
     {
         public static int number = 10;
