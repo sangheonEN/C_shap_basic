@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC6CBBEE-CBD6-4B17-AB9F-5F34FA4306A1}</ProjectGuid>
+    <ProjectGuid>{9D16842E-682C-4A2C-A9F6-C52FA8F5A2F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Shadowing</RootNamespace>
-    <AssemblyName>Shadowing</AssemblyName>
+    <RootNamespace>enum</RootNamespace>
+    <AssemblyName>@enum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
