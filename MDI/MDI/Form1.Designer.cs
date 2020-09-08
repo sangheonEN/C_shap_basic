@@ -30,6 +30,11 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -52,6 +57,39 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 3;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.formAToolStripMenuItem,
+            this.formBToolStripMenuItem});
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.testToolStripMenuItem.Text = "test";
+            // 
+            // formAToolStripMenuItem
+            // 
+            this.formAToolStripMenuItem.Name = "formAToolStripMenuItem";
+            this.formAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.formAToolStripMenuItem.Text = "FormA";
+            this.formAToolStripMenuItem.Click += new System.EventHandler(this.formAToolStripMenuItem_Click);
+            // 
+            // formBToolStripMenuItem
+            // 
+            this.formBToolStripMenuItem.Name = "formBToolStripMenuItem";
+            this.formBToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.formBToolStripMenuItem.Text = "FormB";
+            this.formBToolStripMenuItem.Click += new System.EventHandler(this.formBToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -59,9 +97,15 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,6 +113,10 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formBToolStripMenuItem;
     }
 }
 

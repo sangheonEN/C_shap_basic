@@ -35,5 +35,19 @@ namespace MDI
             form2.MdiParent = this;
             form2.Show();
         }
+
+        private void formAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 F2 = new Form2();
+            F2.MdiParent = this;
+            F2.Show();
+        }
+
+        private void formBToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 F3 = new Form3();
+            F3.MdiParent = this;
+            F3.Show();
+        }
     }
 }
